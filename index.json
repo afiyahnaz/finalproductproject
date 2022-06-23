@@ -1,0 +1,752 @@
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "App has started running",
+    "time": "2022-06-22T11:58:28.065Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:58:35.128Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b064e2bb83b2c97e3ef165",
+            "brand": "FabolusNew",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:30.004Z"
+        },
+        {
+            "_id": "62b064d3bb83b2c97e3ef163",
+            "brand": "Fabolus",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:15.709Z"
+        },
+        {
+            "_id": "62b0391f47f11519ea32f751",
+            "brand": "Galaxy",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:35.144Z"
+        },
+        {
+            "_id": "62b0381047f11519ea32f73f",
+            "brand": "Apple",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 20,
+            "updatedAt": "2022-06-22T11:58:35.144Z"
+        },
+        {
+            "_id": "62b0393d47f11519ea32f754",
+            "brand": "Flipmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:35.144Z"
+        }
+    ],
+    "time": "2022-06-22T11:58:35.150Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:58:41.274Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b0393d47f11519ea32f754",
+            "brand": "Flipmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.279Z"
+        },
+        {
+            "_id": "62b0396147f11519ea32f757",
+            "brand": "Newmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.280Z"
+        },
+        {
+            "_id": "62b0398547f11519ea32f75b",
+            "brand": "Smallmob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.280Z"
+        },
+        {
+            "_id": "62b0399947f11519ea32f75e",
+            "brand": "MedMob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.280Z"
+        },
+        {
+            "_id": "62b039ac47f11519ea32f761",
+            "brand": "LargeMob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.280Z"
+        },
+        {
+            "_id": "62b039c847f11519ea32f764",
+            "brand": "Amazing",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.281Z"
+        },
+        {
+            "_id": "62b039e047f11519ea32f767",
+            "brand": "Fabolus",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:58:41.281Z"
+        }
+    ],
+    "time": "2022-06-22T11:58:41.283Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:58:57.914Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b2b26ae7e4b74a4c6b850f",
+            "brand": "Apple-12",
+            "model": "19",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T06:10:50.250Z",
+            "updatedAt": "2022-06-22T06:10:50.255Z"
+        },
+        {
+            "_id": "62b2a248b59bdf4b058772f1",
+            "brand": "Apple-11",
+            "model": "29",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T05:02:00.844Z",
+            "updatedAt": "2022-06-22T05:02:00.844Z"
+        },
+        {
+            "_id": "62b2a231b59bdf4b058772ed",
+            "brand": "Apple-10",
+            "model": "29",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T05:01:37.455Z",
+            "updatedAt": "2022-06-22T05:01:37.460Z"
+        },
+        {
+            "_id": "62b17ab2b64694a8bcd4849a",
+            "brand": "New235",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "createdAt": "2022-06-21T08:00:50.549Z",
+            "updatedAt": "2022-06-21T08:00:50.553Z"
+        },
+        {
+            "_id": "62b1797c96e2279b9930999d",
+            "brand": "Updated",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-21T07:55:40.241Z"
+        },
+        {
+            "_id": "62b1630e4eb746c164fe2baf",
+            "brand": "New-new",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 100,
+            "createdAt": "2022-06-21T06:19:58.591Z",
+            "updatedAt": "2022-06-21T06:19:58.597Z"
+        },
+        {
+            "_id": "62b15e9ce3af0d940d7563be",
+            "brand": "sam-new",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 100,
+            "createdAt": "2022-06-21T06:01:00.211Z",
+            "updatedAt": "2022-06-21T06:01:00.212Z"
+        },
+        {
+            "_id": "62b067dbf25937c6e6882f04",
+            "brand": "First",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:28:11.937Z"
+        },
+        {
+            "_id": "62b06598bb83b2c97e3ef16f",
+            "brand": "New",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:18:32.327Z"
+        },
+        {
+            "_id": "62b0651ebb83b2c97e3ef169",
+            "brand": "Newadding",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:16:30.452Z"
+        }
+    ],
+    "time": "2022-06-22T11:58:57.922Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:59:01.509Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b2b26ae7e4b74a4c6b850f",
+            "brand": "Apple-12",
+            "model": "19",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T06:10:50.250Z",
+            "updatedAt": "2022-06-22T06:10:50.255Z"
+        },
+        {
+            "_id": "62b2a248b59bdf4b058772f1",
+            "brand": "Apple-11",
+            "model": "29",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T05:02:00.844Z",
+            "updatedAt": "2022-06-22T05:02:00.844Z"
+        },
+        {
+            "_id": "62b2a231b59bdf4b058772ed",
+            "brand": "Apple-10",
+            "model": "29",
+            "price": 4408,
+            "instock": true,
+            "category": "electronics-12",
+            "createdAt": "2022-06-22T05:01:37.455Z",
+            "updatedAt": "2022-06-22T05:01:37.460Z"
+        },
+        {
+            "_id": "62b17ab2b64694a8bcd4849a",
+            "brand": "New235",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "createdAt": "2022-06-21T08:00:50.549Z",
+            "updatedAt": "2022-06-21T08:00:50.553Z"
+        },
+        {
+            "_id": "62b1797c96e2279b9930999d",
+            "brand": "Updated",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-21T07:55:40.241Z"
+        },
+        {
+            "_id": "62b1630e4eb746c164fe2baf",
+            "brand": "New-new",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 100,
+            "createdAt": "2022-06-21T06:19:58.591Z",
+            "updatedAt": "2022-06-21T06:19:58.597Z"
+        },
+        {
+            "_id": "62b15e9ce3af0d940d7563be",
+            "brand": "sam-new",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 100,
+            "createdAt": "2022-06-21T06:01:00.211Z",
+            "updatedAt": "2022-06-21T06:01:00.212Z"
+        },
+        {
+            "_id": "62b067dbf25937c6e6882f04",
+            "brand": "First",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:28:11.937Z"
+        },
+        {
+            "_id": "62b06598bb83b2c97e3ef16f",
+            "brand": "New",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:18:32.327Z"
+        },
+        {
+            "_id": "62b0651ebb83b2c97e3ef169",
+            "brand": "Newadding",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:16:30.452Z"
+        }
+    ],
+    "time": "2022-06-22T11:59:01.520Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:59:08.589Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b064e2bb83b2c97e3ef165",
+            "brand": "FabolusNew",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:30.004Z"
+        },
+        {
+            "_id": "62b064d3bb83b2c97e3ef163",
+            "brand": "Fabolus",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:15.709Z"
+        },
+        {
+            "_id": "62b0391f47f11519ea32f751",
+            "brand": "Galaxy",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:08.597Z"
+        },
+        {
+            "_id": "62b0381047f11519ea32f73f",
+            "brand": "Apple",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 20,
+            "updatedAt": "2022-06-22T11:59:08.598Z"
+        },
+        {
+            "_id": "62b0393d47f11519ea32f754",
+            "brand": "Flipmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:08.598Z"
+        }
+    ],
+    "time": "2022-06-22T11:59:08.601Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:59:26.545Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [],
+    "time": "2022-06-22T11:59:26.552Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:59:42.071Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b064e2bb83b2c97e3ef165",
+            "brand": "FabolusNew",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:30.004Z"
+        },
+        {
+            "_id": "62b064d3bb83b2c97e3ef163",
+            "brand": "Fabolus",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-20T12:15:15.709Z"
+        },
+        {
+            "_id": "62b0391f47f11519ea32f751",
+            "brand": "Galaxy",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:42.076Z"
+        },
+        {
+            "_id": "62b0381047f11519ea32f73f",
+            "brand": "Apple",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 20,
+            "updatedAt": "2022-06-22T11:59:42.076Z"
+        },
+        {
+            "_id": "62b0393d47f11519ea32f754",
+            "brand": "Flipmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:42.077Z"
+        }
+    ],
+    "time": "2022-06-22T11:59:42.078Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T11:59:47.857Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b0393d47f11519ea32f754",
+            "brand": "Flipmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b0396147f11519ea32f757",
+            "brand": "Newmobile",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b0398547f11519ea32f75b",
+            "brand": "Smallmob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b0399947f11519ea32f75e",
+            "brand": "MedMob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b039ac47f11519ea32f761",
+            "brand": "LargeMob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b039c847f11519ea32f764",
+            "brand": "Amazing",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        },
+        {
+            "_id": "62b039e047f11519ea32f767",
+            "brand": "Fabolus",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T11:59:47.859Z"
+        }
+    ],
+    "time": "2022-06-22T11:59:47.860Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T12:00:01.507Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [],
+    "time": "2022-06-22T12:00:01.516Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "Get Request Made",
+    "time": "2022-06-22T12:00:05.283Z",
+    "v": 0
+}
+{
+    "name": "PRODUCT PROJECT",
+    "hostname": "DESKTOP-6AUO1EN",
+    "pid": 14836,
+    "level": 30,
+    "msg": "",
+    "data": [
+        {
+            "_id": "62b038eb47f11519ea32f74b",
+            "brand": "Amazon",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T12:00:05.286Z"
+        },
+        {
+            "_id": "62b039ac47f11519ea32f761",
+            "brand": "LargeMob",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T12:00:05.286Z"
+        },
+        {
+            "_id": "62b039c847f11519ea32f764",
+            "brand": "Amazing",
+            "model": "45",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 15,
+            "updatedAt": "2022-06-22T12:00:05.287Z"
+        },
+        {
+            "_id": "62ac2f7326d6c515a2e5679d",
+            "brand": "Nokia",
+            "model": "30",
+            "price": 15,
+            "instock": false,
+            "category": "electronics",
+            "updatedAt": "2022-06-22T12:00:05.287Z"
+        },
+        {
+            "_id": "62aed4f0424d3e2602295932",
+            "brand": "Nokia",
+            "model": "25",
+            "price": 14,
+            "instock": false,
+            "category": "electronics",
+            "discount": 20,
+            "updatedAt": "2022-06-22T12:00:05.287Z"
+        }
+    ],
+    "time": "2022-06-22T12:00:05.289Z",
+    "v": 0
+}
