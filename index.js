@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 //registering routes.................
 const homeRouter = require('./routers/homeRouter');
