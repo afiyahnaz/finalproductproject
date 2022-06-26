@@ -15,7 +15,7 @@ const post =async (req,res) => {
         logger.error(err);
         res.status(500);
         res.send('Internal server Error');
-    }
+    };
 
 };
    module.exports = { post };
