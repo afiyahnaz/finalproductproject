@@ -13,8 +13,10 @@ const PORT = process.env.PORT || 3000;
 const homeRouter = require('./routers/homeRouter');
 const productRouter = require('./routers/productRouter');
 const reviewRouter = require('./routers/reviewRouter');
+const userRouter = require('./routers/userRouter');
 const config = require('./config');
 const logger = require('./utils/appLogger');
+const  auth = require('./utils/auth');
 
 const app = express();
 
@@ -47,12 +49,20 @@ app.listen(PORT, () =>{
 logger.info('App has started running');
 
 
+// app.use (auth.basicAuth);
+
+
 mongoose.connect(config.dbConStr,(err,result) =>{
  if (!err)     console.log('connected to db');
   else         console.log(err);
 });
 
 
+
 app.use('/',homeRouter);
+
+
+//private
 app.use('/api/product', productRouter);
 app.use('/api/reviews',reviewRouter);
+app.use('/api/users', userRouter);
