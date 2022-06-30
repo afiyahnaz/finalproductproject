@@ -2,8 +2,14 @@ const bcrypt = require('bcrypt');
 
 const getHash = (password) => {
     return bcrypt.hash(password, 2);
-                    //password is called plaintext
-                    //2 is called saltingrounds.....more salting more secure
+                   
 };
+     //password is called plaintex 
+     //2 is called saltingrounds.....more salting more secure
 
-module.exports = { getHash };
+const comparePasswords = (plainText, hash) => {
+    return bcrypt.compare(plainText, hash);
+};                 
+
+
+module.exports = { getHash ,  comparePasswords};

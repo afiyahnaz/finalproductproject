@@ -35,7 +35,9 @@ function  basicAuth(req, res, next) {
 //   app.use(authenticate);
 
 
-
+function generateToken(payload) {
+  
+}
 
 
 module.exports = { basicAuth };

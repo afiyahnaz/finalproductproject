@@ -1,6 +1,9 @@
+const { hash } = require('bcrypt');
 const userRepositories = require('../repositories/userRepositories');
 const logger = require('../utils/appLogger');
 const crypt = require('../utils/crypt');
+const jwt = require('jsonwebtoken');
+const config = require('../config');
 
 const post = async (req, res) => {
 
@@ -30,4 +33,35 @@ const post = async (req, res) => {
 // password123 -> hjdsfd,fjd,dfj -> irreversible
 
 //
-module.exports = { post };
+
+const login = async (req, res) => {
+  const data = req.body;
+  const user = await userRepositories.getUser(data);
+  if(!user) {
+    res.status(401);
+    res.send('Wrong email or password');
+  } else {
+    //compare user password with already existing password in db
+    const response = await crypt.comparePasswords(data.password,user.password);
+    if (response) {
+      //ok
+      res.status(200);
+      const token = jwt.sign({ email: user.email}, config.jwtSecret, { expiresIn: '1 day'});
+      res.json({
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        token: token
+      });
+    } else {
+      res.status(401);
+      res.send('Wrong username or password');
+    }
+  }
+};
+
+
+module.exports = {
+                    post ,
+                   login
+};

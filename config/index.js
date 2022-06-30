@@ -1,8 +1,9 @@
 const config = {
-    // dbConStr:'mongodb://localhost:27017/latestfolder'
+    // dbConStr:'mongodb://localhost:27017/newfolder'
  
-//    dbConStr:'mongodb+srv://sumaiah:Afiyah@cluster0.bggkkmm.mongodb.net/?retryWrites=true&w=majority'
-    dbConStr: process.env.dbConStr
+  //  dbConStr:'mongodb+srv://naz:Afiyah@cluster0.zwtjprl.mongodb.net/?retryWrites=true&w=majority'
+  dbConStr: process.env.dbConStr
+    // jwtSecret: 'anyPassward'
 };
 
 
