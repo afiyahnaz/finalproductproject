@@ -1,7 +1,7 @@
 const config = {
-    // dbConStr:'mongodb://localhost:27017/newfolder'
+    // dbConStr:'mongodb://localhost:27017/productfolder'
  
-  //  dbConStr:'mongodb+srv://naz:Afiyah@cluster0.zwtjprl.mongodb.net/?retryWrites=true&w=majority'
+  //  dbConStr:'mongodb+srv://products:Afiyah@cluster0.j8gw1s4.mongodb.net/productfolder'
   dbConStr: process.env.dbConStr
     // jwtSecret: 'anyPassward'
 };
