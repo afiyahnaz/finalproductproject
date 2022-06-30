@@ -58,11 +58,14 @@ mongoose.connect(config.dbConStr,(err,result) =>{
 });
 
 
-
+//public routes..meand anyone can acess and register..........
 app.use('/',homeRouter);
+app.use('/api/users', userRouter);
+
+//middleware actaully makes routes private means secure
+app.use(auth.tokenAuth);
 
 
-//private
+//private routes...........
 app.use('/api/product', productRouter);
 app.use('/api/reviews',reviewRouter);
-app.use('/api/users', userRouter);
