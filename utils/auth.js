@@ -1,4 +1,5 @@
-
+const config = require('../config/index');
+const jwt = require('jsonwebtoken');
 //middleware
 function  basicAuth(req, res, next) {
     const authHeader = req.headers.authorization;
@@ -36,8 +37,12 @@ function  basicAuth(req, res, next) {
 
 
 function generateToken(payload) {
+  return jwt.sign( payload,
+     config.jwtSecret, 
+     { expiresIn: '1d'});
   
-}
+};
 
 
-module.exports = { basicAuth };
+module.exports = { basicAuth,
+                     generateToken };

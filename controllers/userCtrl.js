@@ -2,8 +2,7 @@ const { hash } = require('bcrypt');
 const userRepositories = require('../repositories/userRepositories');
 const logger = require('../utils/appLogger');
 const crypt = require('../utils/crypt');
-const jwt = require('jsonwebtoken');
-const config = require('../config');
+const auth = require('../utils/auth');
 
 const post = async (req, res) => {
 
@@ -11,14 +10,14 @@ const post = async (req, res) => {
         logger.info('Saving  data to db');
         const data = req.body;
         data.createdAt = new Date();
-        data.password = await crypt.getHash(data.password);
+        data.password = await crypt.getHash(data.password);  //this line save password in hash
         await  userRepositories.register(data);
         logger.info('Saved data to db');
          res.status(201);
          res.send();
 } catch (e) {
     logger.error(e);
-    if(e && e.message.indexOf('duplicate key error')> -1){
+    if(e && e.message.indexOf('duplicate key error')> -1) {
       res.status(400);
       res.send('Email already exists');
     } else {
@@ -42,16 +41,18 @@ const login = async (req, res) => {
     res.send('Wrong email or password');
   } else {
     //compare user password with already existing password in db
-    const response = await crypt.comparePasswords(data.password,user.password);
+    const response = await crypt.comparePasswords(data.password, user.password);
     if (response) {
       //ok
       res.status(200);
-      const token = jwt.sign({ email: user.email}, config.jwtSecret, { expiresIn: '1 day'});
+      // res.send('Login sussesfull');
+   const token = auth.generateToken({email: user.email});
+
       res.json({
         firstName: user.firstName,
-        lastName: user.lastName,
+        lastName : user.lastName,
         email: user.email,
-        token: token
+        token : token
       });
     } else {
       res.status(401);

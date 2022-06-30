@@ -12,8 +12,9 @@ const  register = (data) => {
 // so convert plain password ==== hashpassword then compare
 
 const getUser = (data) => {
-       return User.findOne({ email: data.email}, { email: 1, password: 1, firstName: 1, lastName: 1});
-};
+       return User.findOne({ email: data.email},{email : 1, password : 1},{firstName : 1, lastName : 1});
+             
+       };        
 
 module.exports = { 
                    register,

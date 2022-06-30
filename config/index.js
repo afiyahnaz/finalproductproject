@@ -2,8 +2,8 @@ const config = {
     // dbConStr:'mongodb://localhost:27017/productfolder'
  
   //  dbConStr:'mongodb+srv://products:Afiyah@cluster0.j8gw1s4.mongodb.net/productfolder'
-  dbConStr: process.env.dbConStr
-    // jwtSecret: 'anyPassward'
+  dbConStr: process.env.dbConStr,
+  jwtSecret: process.env.jwtSecret //anypassword u set 
 };
 
 

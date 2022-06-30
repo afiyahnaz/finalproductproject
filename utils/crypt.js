@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 
 const getHash = (password) => {
-    return bcrypt.hash(password, 2);
+    return bcrypt.hash(password, 2); //2 is salting rounds
                    
 };
      //password is called plaintex 
