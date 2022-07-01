@@ -64,6 +64,7 @@ mongoose.connect(config.dbConStrPro,(err,result) =>{
 app.use('/',homeRouter);  //public router
 app.use('/api/users', userRouter);  //public router
 
+//Bearer
 //middleware actaully makes routes private means secure
 app.use(auth.tokenAuth);
 

@@ -55,7 +55,7 @@ function tokenAuth(req, res, next) {
             const jwtToken = tokens[1];
             const response =  jwt.verify(jwtToken,config.jwtSecret);
            if (response)    next(); 
-            // req.role = response.role;
+            // req.role = response.role;   //personas or roles
           
            
            else {
