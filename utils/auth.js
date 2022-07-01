@@ -54,10 +54,10 @@ function tokenAuth(req, res, next) {
             const tokens = authHeader.split(' ');  //split with space with Bearer
             const jwtToken = tokens[1];
             const response =  jwt.verify(jwtToken,config.jwtSecret);
-           if (response)    next(); 
-            // req.role = response.role;   //personas or roles
-          
-           
+           if (response)  { 
+            req.role = response.role;   //personas or roles
+            next(); 
+           }
            else {
           res.status(401);
           res.send('Unauthorized');
@@ -71,6 +71,23 @@ function tokenAuth(req, res, next) {
   }
 
 };
+
+// api/products/page/1/size/10
+//index.js -> auth.js -> products
+//delete
+//api/products/:id
+//index.js -> auth.js(req, res) -> product router (req, res) -> ctrl (req, res)
+
+function authorizeAdmin(req, res, next) {
+  if(role === 'Admin') next();
+  else{
+    res.status(403);
+    res.send('Forbidden');
+  }
+}
+
+
 module.exports = { basicAuth,
                      generateToken,
-                     tokenAuth };
+                     tokenAuth,
+                     authorizeAdmin };
