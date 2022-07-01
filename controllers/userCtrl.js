@@ -36,6 +36,7 @@ const post = async (req, res) => {
 const login = async (req, res) => {
   const data = req.body;
   const user = await userRepositories.getUser(data);
+  console.log('dbuser', user);
   if(!user) {
     res.status(401);
     res.send('Wrong email or password');
@@ -46,7 +47,7 @@ const login = async (req, res) => {
       //ok
       res.status(200);
       // res.send('Login sussesfull');
-   const token = auth.generateToken({email: user.email});
+   const token = auth.generateToken({role: user.role, email: user.email});
 
       res.json({
         firstName: user.firstName,

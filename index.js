@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 3000;
+
 
 //registering routes.................
 const homeRouter = require('./routers/homeRouter');
@@ -20,12 +20,14 @@ const  auth = require('./utils/auth');
 
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.use(bodyparser.json());
 
 // below code is written if log file is deleted
 const dir = path.join(__dirname,'logs');
 if (!fs.existsSync(dir)){
-
+      //create a file
   fs.mkdirSync(dir);
 }
 ////////////
@@ -59,8 +61,8 @@ mongoose.connect(config.dbConStr,(err,result) =>{
 
 
 //public routes..meand anyone can acess and register..........
-app.use('/',homeRouter);
-app.use('/api/users', userRouter);
+app.use('/',homeRouter);  //public router
+app.use('/api/users', userRouter);  //public router
 
 //middleware actaully makes routes private means secure
 app.use(auth.tokenAuth);
@@ -69,3 +71,6 @@ app.use(auth.tokenAuth);
 //private routes...........
 app.use('/api/product', productRouter);
 app.use('/api/reviews',reviewRouter);
+
+
+//POST http://localhost:3000/api/product body{}

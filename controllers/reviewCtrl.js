@@ -13,7 +13,7 @@ const post =async (req,res) => {
 
     res.status(201);
     res.send();
-    }catch(err){
+    } catch (err) {
         logger.error(err);
         res.status(500);
         res.send('Internal server Error');

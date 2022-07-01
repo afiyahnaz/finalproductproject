@@ -12,4 +12,6 @@ const schema = new mongoose.Schema({
 });
 
 
+schema.index({ productId: 1 });
+
 module.exports = mongoose.model('review', schema);

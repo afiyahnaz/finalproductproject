@@ -1,18 +1,18 @@
 const product = require('../models/productModel');
 
-const get = (options) =>{
+const get = (options) => {
     const {page, pageSize, sort, dir,search}  =  options;
 
     let direction;
 
-    switch(dir.toLowerCase()) {
+  switch(dir.toLowerCase()) {
     case 'asc' :
         direction = 1;
          break;
     case 'desc' :
         direction = -1;
         break;
-    default :
+     default :
         direction = 1;
         break;         
    }; 
@@ -33,8 +33,8 @@ const get = (options) =>{
 
 };
 
-const getCount = (options) =>{
-    const {search} = options;
+const getCount = (options) => {
+    const { search } = options;
     let filter = {};
 
     if(search) {
@@ -48,8 +48,8 @@ const getCount = (options) =>{
     return product.count({filter});
 };
 //we are amking url api in such a way it suits all this conditions api/product/page/1/size/10?search=''&sort&dir
-const getById = (id) =>{
-    return product.findOne({_id:id},{__v:0});
+const getById = (id) => {
+    return product.findOne({_id:id}, {__v:0});
 };
 
 const create = (data) =>{
@@ -62,7 +62,7 @@ const remove = (id) =>{
 };
 
 const update = (id,body) =>{
-    return product.findOneAndUpdate({_id:id},{
+    return product.findOneAndUpdate({_id:id}, {
         brand :body.brand,
         model :body.model,
         price : body.model,
