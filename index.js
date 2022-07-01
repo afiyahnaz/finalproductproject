@@ -54,7 +54,7 @@ logger.info('App has started running');
 // app.use (auth.basicAuth);
 
 
-mongoose.connect(config.dbConStr,(err,result) =>{
+mongoose.connect(config.dbConStrPro,(err,result) =>{
  if (!err)     console.log('connected to db');
   else         console.log(err);
 });
