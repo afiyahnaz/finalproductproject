@@ -1,7 +1,7 @@
 const express = require('express');
 
 const productCtrl = require('../controllers/productCtrl');
-// const auth = require('../utils/auth');
+const auth = require('../utils/auth');
 
 const router = express.Router();
 
@@ -19,7 +19,7 @@ router.get('/:id',productCtrl.getById);
 
 
 //index.js ->authenticated -> authorizes -> ctrl -> repo
-router.delete('/:id',productCtrl.remove);
+router.delete('/:id', auth.authorizeAdmin, productCtrl.remove);
 router.put('/:id',productCtrl.update);
 router.patch('/:id',productCtrl.patch);
 //DELETE http://localhost:3000/api/product/:id

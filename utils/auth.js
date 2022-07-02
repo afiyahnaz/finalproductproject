@@ -54,7 +54,8 @@ function tokenAuth(req, res, next) {
             const tokens = authHeader.split(' ');  //split with space with Bearer
             const jwtToken = tokens[1];
             const response =  jwt.verify(jwtToken,config.jwtSecret);
-           if (response)  { 
+           if (response)  {
+            console.log(response);
             req.role = response.role;   //personas or roles
             next(); 
            }
@@ -79,12 +80,13 @@ function tokenAuth(req, res, next) {
 //index.js -> auth.js(req, res) -> product router (req, res) -> ctrl (req, res)
 
 function authorizeAdmin(req, res, next) {
+  const role = req.role;
   if(role === 'Admin') next();
   else{
     res.status(403);
     res.send('Forbidden');
   }
-}
+};
 
 
 module.exports = { basicAuth,
