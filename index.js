@@ -66,7 +66,7 @@ app.use('/api/users', userRouter);  //public router
 
 //Bearer
 //middleware actaully makes routes private means secure
-// app.use(auth.tokenAuth);
+app.use(auth.tokenAuth);
 
 
 //private routes...........
