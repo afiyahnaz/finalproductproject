@@ -60,7 +60,7 @@ mongoose.connect(config.dbConStrPro,(err,result) =>{
 });
 
 
-//public routes..meand anyone can acess and register..........
+//public routes..mean anyone can acess and register..........
 app.use('/',homeRouter);  //public router
 app.use('/api/users', userRouter);  //public router
 
