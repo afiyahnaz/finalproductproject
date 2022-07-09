@@ -65,10 +65,11 @@ const getById = async (req,res) =>{
     const id = req.params.id;
     const duck = await  productRepositories.getById(id);
     const reviews = await reviewRepository. getReviewByProductId(id);
-    
+    const avgRating = await reviewRepository.getAvgRating(id);
     
     const jsonProduct = duck.toJSON();
     jsonProduct.reviews = reviews;
+    jsonProduct.avgRating =  avgRating;
 
     res.status(200);
     res.json( jsonProduct);

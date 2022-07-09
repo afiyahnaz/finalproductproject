@@ -15,8 +15,15 @@ const getReviewByProductId = (productId) => {
 };
 
 
+const getAvgRating = (productId) => {
+  return  Review.aggregate([
+        { $match: { productId: productId } },
+        {$group:{_id:'$productId', avgRating:{$avg:'$rating'}}}
+    ]);
 
+};
 
 module.exports = {create,
-    getReviewByProductId
+    getReviewByProductId,
+    getAvgRating 
 };
