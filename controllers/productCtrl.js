@@ -49,10 +49,10 @@ const getOptions = req =>{
 
 
 
-            const transformedData = data.map(product=>{   //to make img as link
+            const transformedData = data.map(product=>{   ////code img url work on heroku
                 return {                                 //we wrote this code
                     ...product._doc, 
-                     img: `${protocol}://${host}/${product._doc.img}`
+                     img: product._doc.img?`${protocol}://${host}/${product._doc.img}` : '' //code if img there show if not
                      }
             })
 
