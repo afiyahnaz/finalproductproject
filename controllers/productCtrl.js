@@ -41,6 +41,13 @@ const getOptions = req =>{
             const totalRecords = await  productRepositories.getCount(options);
            
             // const jsonData = data.toJSON();
+          
+            const protocol = req.protocol();
+            const host = req.get('host');
+
+            console.log(protocol, host);
+
+
 
             const transformedData = data.map(product=>{   //to make img as link
                 return {                                 //we wrote this code
