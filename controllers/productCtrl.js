@@ -42,7 +42,7 @@ const getOptions = req =>{
            
             // const jsonData = data.toJSON();
           
-            const protocol = req.protocol();
+            const protocol = req.protocol;
             const host = req.get('host');
 
             console.log(protocol, host);
@@ -52,7 +52,7 @@ const getOptions = req =>{
             const transformedData = data.map(product=>{   //to make img as link
                 return {                                 //we wrote this code
                     ...product._doc, 
-                     img: 'http://localhost:3000/' + product.img
+                     img: `${protocol}://${host}/${product._doc.img}`
                      }
             })
 
