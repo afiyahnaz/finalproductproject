@@ -69,7 +69,7 @@ const getById = async (req,res) =>{
     
     const jsonProduct = duck.toJSON();
     jsonProduct.reviews = reviews;
-    const avgRating = ratingRes && ratingRes.length ? ratingRes[0].avgRating : undefined;
+    const avgRating = ratingRes && ratingRes.length ? ratingRes[0].avgRating : undefined;  //someproducts wont hv reviews
     jsonProduct.avgRating =   avgRating;
 
     res.status(200);
@@ -81,6 +81,7 @@ const getById = async (req,res) =>{
 
 const post = async (req,res) =>{
     try{ 
+        // console.log(req.body, '......................');
         req.body.createdAt = new Date();
         await  productRepositories.create(req.body);
         res.status(201);

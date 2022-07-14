@@ -8,6 +8,8 @@ const productSchema = new Schema({
     price :  {type : Number, required:[true, 'price is required']},
     instock: {type: Boolean, default:false},
     category :  {type : String, required:[true, 'category is required']},
+    discount:{ type: Number, default:0},
+    img:{ type: String},
     createdAt:{type:Date},
     updatedAt:{type:Date, default:Date.now},
 
