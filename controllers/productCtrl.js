@@ -39,6 +39,17 @@ const getOptions = req =>{
             const options = getOptions(req);
             const data= await  productRepositories.get(options);
             const totalRecords = await  productRepositories.getCount(options);
+           
+            // const jsonData = data.toJSON();
+
+            const transformedData = data.map(product=>{   //to make img as link
+                return {                                 //we wrote this code
+                    ...product._doc, 
+                     img: 'http://localhost:3000/' + product.img
+                     }
+            })
+
+
             const totalPages = Math.ceil(totalRecords/ options.pageSize);
 
             const response ={
@@ -46,7 +57,7 @@ const getOptions = req =>{
                     totalRecords,
                     totalPages,
                 },
-                data,
+                data:transformedData ,
             };
 
             logger.info( {msg: 'data successfully fetched', data: data});

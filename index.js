@@ -24,6 +24,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(bodyparser.json());
 
+app.use(express.static('uploads'));  //to make use of img as link
+
 // below code is written if log file is deleted
 const dir = path.join(__dirname,'logs');
 if (!fs.existsSync(dir)){
