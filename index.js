@@ -6,6 +6,7 @@ const bodyparser = require('body-parser');
 const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 
 
 
@@ -21,6 +22,8 @@ const  auth = require('./utils/auth');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
+
+app.use(cors());  //allowed to all
 
 app.use(bodyparser.json());
 
