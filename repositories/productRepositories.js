@@ -1,7 +1,7 @@
 const product = require('../models/productModel');
 
 const get = (options) => {
-    const {page, pageSize, sort, dir,search}  =  options;
+    const {page, pageSize, sort, dir, search}  =  options;
 
     let direction;
 
