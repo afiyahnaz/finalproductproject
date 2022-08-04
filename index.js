@@ -23,7 +23,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());  //allowed to all
+app.use(cors());  //allowed to all  0
 
 app.use(bodyparser.json());
 
